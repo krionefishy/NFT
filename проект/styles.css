@@ -1,0 +1,330 @@
+*{
+	box-sizing: border-box;
+}
+.wrapper{
+	width:1450px;
+	margin: 0 auto;
+}
+.header{
+	background-image: url(images/1/nft.jpeg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding-top:300px;
+	text-align:center;
+}
+h1{
+	margin: 0;
+	color:white;
+	text-align:center;
+	font-size:4em;
+	font-weight:normal;
+}
+h2{
+	margin: 0;
+	font-size:7em;
+	color:white;
+	text-align:center;
+}
+h3{
+	font-size:2em;
+	font-style:italic;
+	color:black;
+	text-align:center;
+}
+h4{
+	text-align:l;
+	font-style:italic;
+	font-size:1em;
+	color:black;
+}
+body{
+	margin:0;
+	padding:0;
+	background-color:rgb(176, 224, 230);
+}
+
+.nav{
+margin:0 auto;
+padding:0;
+list-style-type:none;
+width:1300px;
+}
+.nav a{
+text-decoration: none;
+text-transform: uppercase;
+color:white;
+}
+.nav li{
+display: inline-block;
+margin:0 100px 10px 0;
+}
+.nav a:hover,.nav a:focus{
+	color:rgb(58,189,233);
+	
+}
+
+.main{
+	background-color:rgb(255, 255, 255 );
+	padding:20px 20px 20px 20px;
+	font-family: 'Century Gothic';	
+}
+
+.section{
+margin:0px 5px;
+padding:0 0 0 20px;
+width:373px;
+float:left;
+}
+.section1{
+margin:0px 3px;
+padding:0;
+width:282px;
+float:left;
+}
+.section2{
+margin:0px 3px;
+padding:0;
+width:570px;
+float:left;
+overflow:hidden;
+}
+.section a,.section1 a,.section2 a{
+text-decoration: none;
+color:black;
+font-size:1.5em;
+font-weight:bold;
+}
+.section p,.section1 p,.section2 p{
+	text-align:left;
+}
+.section a:hover,.section1 a:hover,.section2 a:hover,.section a:focus,.section1 a:focus,.section2 a:focus{
+border-bottom:1px solid black;
+
+}
+a.link:hover{
+	border-bottom:none;
+}
+.section img:hover,.section1 img:hover,.section2 img:hover{
+	opacity:.7;
+}
+.copyright, .contener p.copyright{
+	padding-top:50px;
+	padding-left:51px;
+	font-size:1em;
+	font-family: 'Comfortaa', cursive;
+	padding-bottom:20px;
+	font-weight:normal;
+	clear:both;
+}
+.center, .contener p.center{
+	text-align:center;
+		font-size:1em;
+}
+.cl{
+	clear:both;
+	
+	
+}
+.left, .contener p.left{
+padding-left:51px;
+	font-size:1em;
+	
+	
+}
+footer{
+	clear: both;
+	padding: 5px 20px 30px 20px;
+	background-color:rgb(255,255,255);
+	margin-top: 20px;
+}
+
+.contener{
+	width:1200px;
+	margin:0 auto;
+	font-family: 'Comfortaa', cursive;
+	color:black;
+	background:white;
+
+}
+.contener h1{
+	font-family:"times new roman" , serif;
+	color:#630;
+	background-image: url(images/inner.jpg);
+	background-repeat:no-repeat;
+	height:500px;
+	padding-left:10px;
+	padding-right:10px;
+
+}
+.contener h2{
+	font-family:"times new roman" , serif;
+	color:#630;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+.contener h4{
+	font-size:2em;
+	
+	font-family: 'Comfortaa', cursive;
+	clear:both;
+	margin-bottom:5px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.contener p{
+	font-size:150%;
+	font-family: 'Comfortaa', cursive;
+	line-height:150%;
+	margin-top:0;
+	padding-left:15px;
+	padding-right:15px;
+	
+}
+
+table{
+	border-collapse:collapse;
+	width:90%;
+	font-size:1.3em;
+	border:1px solid black;
+	margin:5px auto;
+	font-family: 'Comfortaa', cursive;
+}
+caption{
+	font-size:1.3em;
+	font-weight:bold;
+	font-family: 'Comfortaa', cursive;
+}
+td{
+	padding:5px 5px 5px 7px;
+	border:3px solid black;
+}
+.contener ol{
+font-family: 'Comfortaa', cursive;		
+	
+	
+}
+.contener ol li{
+line-height:175%;
+	font-size:130%;		
+	
+	
+}
+.contener ul {	
+	list-style: none;	
+	font-family: 'Comfortaa', cursive;	
+}
+.contener ul li{
+	background:url(images/strela.png) no-repeat 0 3px;
+	line-height:175%;
+	padding-left:21px;
+	font-size:130%;	
+}
+.contener li ul li{
+	background:url(images/galochka.png) no-repeat 0 3px;
+	padding-left:25px;
+	font-size:81%;	
+	line-height:199%;
+}
+
+.contener li ul li ul li{
+	background:none;
+	list-style-type:disc;
+	padding-left:11px;
+	
+}
+
+
+q,cite{
+	font-style:italic;
+	
+	
+}
+.right{
+	text-align:right;	
+}
+.menu{
+	padding:2px 20px;
+	margin:0;
+	list-style:none;
+	background-color:#630;
+	text-align:center;
+	
+}
+.contener .menu li{
+	display:inline-block;
+	padding:0px 20px;
+	background:none;
+}
+.menu a {
+	background-color:#630;
+	color:white;
+	padding:2px;
+	text-decoration:none;
+}
+.menu a:hover,.menu a:focus{
+	color:rgb(58,189,233);
+	background-color:rgba(255,255,255,.1);
+	padding-left:1px;
+	padding-right:1px;
+}
+.gallery{
+	padding:0 0px; 
+	width:1200px;
+	margin-bottom:20px;
+}
+.gallery figure{
+width:386px;
+margin:5px;
+float:left;
+
+}
+
+
+.image{
+	float:left;
+	margin-right:9px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.tekst p{
+	font-size:14px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.contener .tekst ul {	
+	list-style: none;	
+	font-family: 'Comfortaa', cursive;
+	font-size:14px;
+	
+}
+.contener .tekst ul li{
+	background:url(images/strela.png) no-repeat 0 3px;
+	line-height:175%;
+	padding-left:21px;
+	font-size:14px;
+	margin-left:270px;
+}
+.int{
+	clear:both;
+	margin-top:5px;
+	margin-bottom:6px;
+}
+.zaglinks {
+	font-size:2em;
+	color:black;
+	font-family: 'Comfortaa', cursive;
+	clear:both;
+	margin-bottom:5px;
+	padding-left:15px;
+	padding-right:15px;
+}
+.linab{
+font-size:150%;
+	font-family: 'Comfortaa', cursive;
+	line-height:150%;
+	margin-top:0;
+	padding-left:15px;
+	padding-right:15px;
+}
